@@ -1,12 +1,10 @@
 
-//2 commit
 import java.util.Iterator;
-
 public class Demo {
  
     public static void main(String[] args) {
     	 System.out.println("==== Part1");
-    	 
+    	 System.out.println(123);
          // test add
          MyList con = new MyListImpl();
          con.add("A");
